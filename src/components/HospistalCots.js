@@ -6,7 +6,7 @@ import HeadAndFootAdjustableCot from "./Assets/head-and-foot-adjustable.jpg";
 
 function HospistalCots() {
   return (
-    <div className="bg-sky-200">
+    <div className="bg-sky-100">
       <div className="container mx-auto">
         <div className="container mx-auto pt-10">
           <h1 className=" flex justify-center text-2xl font-semibold text-sky-800 ">
