@@ -1,17 +1,17 @@
 import React from "react";
-import BasicMedicalCot from "./Assets/basic-medical-cot-for-home-use.jpg";
-import DeluxeCotWithoutWheels from "./Assets/Deluxe-Hospital-Cot-for-Home-use-without-Wheels.jpg";
-import DeluxeSemiFowlersCot from "./Assets/deluxe-semi-fowlers-cot.jpg";
-import HeadAndFootAdjustableCot from "./Assets/head-and-foot-adjustable.jpg";
+import Hapus from "./Assets/1.jpg";
+import UpHealthyExtraLarge from "./Assets/2.jpg";
+import Underpads from "./Assets/underpads.jpg";
+import PoroductsPioneer from "./Assets/poroducts_pioneer.jpg";
 
-function HospistalCots() {
+function Cosumables() {
   return (
     <div>
       <div className="bg-sky-100">
         <div className="container mx-auto">
           <div className="container mx-auto pt-10">
             <h1 className=" flex justify-center text-2xl font-semibold text-sky-800 ">
-              Hospital Cots
+              Consumables
             </h1>
           </div>
           <div class=" bg-gradient-to-tr  flex justify-center items-center py-10">
@@ -24,17 +24,13 @@ function HospistalCots() {
                   Purchase
                 </p>
                 <div class="">
-                  <img
-                    class="w-full rounded-xl"
-                    src={BasicMedicalCot}
-                    alt="Colors"
-                  />
+                  <img class="w-full rounded-xl" src={Hapus} alt="Colors" />
                 </div>
                 <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
-                Basic Medical Cot
+                  Hapus
                 </h1>
                 <div class="">
-                  <button class="mt-10 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
+                  <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
                 </div>
@@ -50,15 +46,15 @@ function HospistalCots() {
                 <div class="">
                   <img
                     class="w-full rounded-xl"
-                    src={DeluxeCotWithoutWheels}
+                    src={UpHealthyExtraLarge}
                     alt="Colors"
                   />
                 </div>
                 <h1 class="mt-5 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90 text-center">
-                Deluxe Cot Without Wheels
+                  UpHealthy Extra Large
                 </h1>
                 <div class="">
-                  <button class="mt-10 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
+                  <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
                 </div>
@@ -72,17 +68,13 @@ function HospistalCots() {
                 </p>
 
                 <div class="">
-                  <img
-                    class="w-full rounded-xl"
-                    src={DeluxeSemiFowlersCot}
-                    alt="Colors"
-                  />
+                  <img class="w-full rounded-xl" src={Underpads} alt="Colors" />
                 </div>
                 <h1 class="mt-5 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90  text-center">
-                Deluxe Semi Fowlers Cot
+                  Underpads
                 </h1>
                 <div class="">
-                  <button class="mt-10 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
+                  <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
                 </div>
@@ -97,12 +89,12 @@ function HospistalCots() {
                 <div class="">
                   <img
                     class="w-full rounded-xl"
-                    src={HeadAndFootAdjustableCot}
+                    src={PoroductsPioneer}
                     alt="Colors"
                   />
                 </div>
                 <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
-                Head And Foot Adjustable Cot
+                  Products Pioneer
                 </h1>
                 <div class="">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
@@ -118,4 +110,4 @@ function HospistalCots() {
   );
 }
 
-export default HospistalCots;
+export default Cosumables;

@@ -1,7 +1,13 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      extend: {
+        colors: {
+          'custom-sky':'#EF4781',
+        }
+      },
+    },
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
       Roboto: ["Roboto", "sans-serif"],
