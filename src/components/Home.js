@@ -3,6 +3,7 @@ import AirBeds from "./AirBeds";
 import Banner from "./Banner";
 import BPStethescope from "./BPStethescope";
 import Cosumables from "./Cosumables";
+import Footer from "./Footer";
 import Header from "./Header";
 import HospistalCots from "./HospistalCots";
 import Nebuliser from "./Nebuliser";
@@ -25,6 +26,7 @@ function Home() {
       <AirBeds/>
       <BPStethescope/>
       <Cosumables/>
+      <Footer/>
     </div>
   );
 }

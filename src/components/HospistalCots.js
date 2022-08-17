@@ -31,7 +31,7 @@ function HospistalCots() {
                   />
                 </div>
                 <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
-                Basic Medical Cot
+                  Basic Medical Cot
                 </h1>
                 <div class="">
                   <button class="mt-10 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
@@ -55,7 +55,7 @@ function HospistalCots() {
                   />
                 </div>
                 <h1 class="mt-5 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90 text-center">
-                Deluxe Cot Without Wheels
+                  Deluxe Cot Without Wheels
                 </h1>
                 <div class="">
                   <button class="mt-10 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
@@ -79,7 +79,7 @@ function HospistalCots() {
                   />
                 </div>
                 <h1 class="mt-5 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90  text-center">
-                Deluxe Semi Fowlers Cot
+                  Deluxe Semi Fowlers Cot
                 </h1>
                 <div class="">
                   <button class="mt-10 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
@@ -102,7 +102,7 @@ function HospistalCots() {
                   />
                 </div>
                 <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
-                Head And Foot Adjustable Cot
+                  Head And Foot Adjustable Cot
                 </h1>
                 <div class="">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">

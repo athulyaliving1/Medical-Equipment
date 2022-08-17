@@ -2,7 +2,7 @@ import React from "react";
 
 function Title() {
   return (
-    <div className="bg-zinc-100 pt-10 pb-10">
+    <div className="bg-zinc-50 pt-10 pb-10">
       <div className="container mx-auto p-5">
         <h1 className=" flex justify-center text-2xl font-semibold text-sky-800 ">
           Medical Equipment and Consumables
