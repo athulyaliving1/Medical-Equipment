@@ -1,6 +1,7 @@
 import React from "react";
 import care from "./Assets/care.png";
 
+
 function Header() {
   return (
     <div>
@@ -60,6 +61,7 @@ function Header() {
           </div>
         </div>
       </div>
+    
     </div>
   );
 }

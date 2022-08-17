@@ -33,7 +33,7 @@ function AirBeds() {
                 <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
                   Air Bed With Bubble Mattress
                 </h1>
-                <div class="">
+                <div class="my-7">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
@@ -57,7 +57,7 @@ function AirBeds() {
                 <h1 class="mt-11 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90 text-center">
                   Bubble Mattress AirBed
                 </h1>
-                <div class="">
+                <div class="my-7">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
@@ -81,7 +81,7 @@ function AirBeds() {
                 <h1 class="mt-11 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90  text-center">
                   Alpha bed Bubble Mattress
                 </h1>
-                <div class="">
+                <div class="my-7">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
@@ -104,7 +104,7 @@ function AirBeds() {
                 <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
                   Bubble Mattress Air Bed With Cot
                 </h1>
-                <div class="">
+                <div class="my-7">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>

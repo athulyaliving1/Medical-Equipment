@@ -35,7 +35,7 @@ function OxygenCyclinder() {
               <h1 class="mt-10 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
                 Complete Oxygen Cylinder Kit
               </h1>
-              <div class="">
+              <div class="my-6">
                 {/* <div class="flex space-x-1 items-center">
       <span>
         <svg
@@ -120,7 +120,7 @@ function OxygenCyclinder() {
               <h1 class="mt-10 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90 text-center">
                 Oxygen Flowmeter For Oxygen Cylinder
               </h1>
-              <div class="">
+              <div class="my-6">
                 {/* <div class="flex space-x-1 items-center">
       <span>
         <svg
@@ -205,7 +205,7 @@ function OxygenCyclinder() {
               <h1 class="mt-16 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90  text-center">
                 Portable Oxygen Cylinder
               </h1>
-              <div class="">
+              <div class="my-6">
                 {/* <div class="flex space-x-1 items-center">
       <span>
         <svg
@@ -285,7 +285,7 @@ function OxygenCyclinder() {
               <h1 class="mt-10 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
                 High Flow Nasal Oxygen Mask
               </h1>
-              <div class="">
+              <div class="my-6">
                 <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                   Enquiry
                 </button>

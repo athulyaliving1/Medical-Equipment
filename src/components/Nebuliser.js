@@ -35,7 +35,7 @@ function Nebuliser() {
               <h1 class="mt-10 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
                 Micro life Nebulizer
               </h1>
-              <div class="">
+              <div class="my-7">
                 {/* <div class="flex space-x-1 items-center">
       <span>
         <svg
@@ -120,7 +120,7 @@ function Nebuliser() {
               <h1 class="mt-3 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90 text-center">
                 Omron Compressor Nebulize
               </h1>
-              <div class="">
+              <div class="my-7">
                 {/* <div class="flex space-x-1 items-center">
       <span>
         <svg
@@ -205,7 +205,7 @@ function Nebuliser() {
               <h1 class="mt-10 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90  text-center">
                 High Compressor Nebulizer
               </h1>
-              <div class="">
+              <div class="my-7">
                 {/* <div class="flex space-x-1 items-center">
       <span>
         <svg
@@ -269,28 +269,28 @@ function Nebuliser() {
               </div>
             </div>
             <div class="max-w-sm bg-white px-6 pt-6 pb-2 rounded-xl shadow-lg transform hover:scale-105 transition duration-500 relative">
-                <p class="absolute top-0 left-0 bg-sky-800 text-white font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">
-                  Rental
-                </p>
-                <p class="absolute top-0 right-0 bg-sky-800  font-semibold py-1 px-3 text-white rounded-tr-lg rounded-bl-lg">
-                  Purchase
-                </p>
-                <div class="">
-                  <img
-                    class="w-full rounded-xl"
-                    src={TravelConvenientNebulizers}
-                    alt="Colors"
-                  />
-                </div>
-                <h1 class="mt-3 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
-                  Bubble Mattress Air Bed With Cot
-                </h1>
-                <div class="">
-                  <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
-                    Enquiry
-                  </button>
-                </div>
+              <p class="absolute top-0 left-0 bg-sky-800 text-white font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">
+                Rental
+              </p>
+              <p class="absolute top-0 right-0 bg-sky-800  font-semibold py-1 px-3 text-white rounded-tr-lg rounded-bl-lg">
+                Purchase
+              </p>
+              <div class="">
+                <img
+                  class="w-full rounded-xl"
+                  src={TravelConvenientNebulizers}
+                  alt="Colors"
+                />
               </div>
+              <h1 class="mt-4 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
+                Bubble Mattress Air Bed With Cot
+              </h1>
+              <div class="my-7">
+                <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
+                  Enquiry
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

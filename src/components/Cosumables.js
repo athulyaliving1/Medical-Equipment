@@ -26,10 +26,10 @@ function Cosumables() {
                 <div class="">
                   <img class="w-full rounded-xl" src={Hapus} alt="Colors" />
                 </div>
-                <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
+                <h1 class="mt-8 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
                   Hapus
                 </h1>
-                <div class="">
+                <div class="my-9">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
@@ -50,10 +50,10 @@ function Cosumables() {
                     alt="Colors"
                   />
                 </div>
-                <h1 class="mt-5 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90 text-center">
+                <h1 class="mt-8 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90 text-center">
                   UpHealthy Extra Large
                 </h1>
-                <div class="">
+                <div class="my-9">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
@@ -70,10 +70,10 @@ function Cosumables() {
                 <div class="">
                   <img class="w-full rounded-xl" src={Underpads} alt="Colors" />
                 </div>
-                <h1 class="mt-5 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90  text-center">
+                <h1 class="mt-8 text-gray-800 md:text-xl font-semibold  cursor-pointer opacity-90  text-center">
                   Underpads
                 </h1>
-                <div class="">
+                <div class="my-9">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>
@@ -83,7 +83,7 @@ function Cosumables() {
                 <p class="absolute top-0 left-0 bg-sky-800 text-white font-semibold py-1 px-3 rounded-br-lg rounded-tl-lg">
                   Rental
                 </p>
-                <p class="absolute top-0 right-0 bg-sky-800  font-semibold py-1 px-3 text-white rounded-tr-lg rounded-bl-lg">
+                <p class="absolute top-0 right-0 bg-sky-800  font-semibold py-1 px-3 text-white rounded-tr-lg rounded-bl-lg ">
                   Purchase
                 </p>
                 <div class="">
@@ -93,10 +93,10 @@ function Cosumables() {
                     alt="Colors"
                   />
                 </div>
-                <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
+                <h1 class="mt-8 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center ">
                   Products Pioneer
                 </h1>
-                <div class="">
+                <div class="my-9">
                   <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
                     Enquiry
                   </button>

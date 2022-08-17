@@ -8,7 +8,7 @@ function WheelChair() {
   return (
     <div className="bg-sky-100">
       <div className="container mx-auto">
-        <div className="container mx-auto pt-10">
+        <div className="container mx-auto pt-10 px-20 ">
           <h1 className=" flex justify-center text-2xl font-semibold text-sky-800 ">
             Wheel chair/Walker
           </h1>
