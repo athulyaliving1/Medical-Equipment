@@ -5,6 +5,7 @@ import UpHealthyExtraLarge from "../Assets/2.jpg";
 import Underpads from "../Assets/underpads.jpg";
 import PoroductsPioneer from "../Assets/poroducts_pioneer.jpg";
 import PopUp from "./PopUp";
+import Form from "../Form";
 
 const assertMap = {
   Hapus_pic: Hapus,
@@ -15,6 +16,8 @@ const assertMap = {
 
 const ConsumablesCard = ({ project }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [popIsOpen, setPopIsOpen] = useState(false);
+
   const { title, desc, image } = project;
 
   const setModalIsOpenToTrue = () => {
@@ -23,6 +26,13 @@ const ConsumablesCard = ({ project }) => {
 
   const setModalIsOpenToFalse = () => {
     setModalIsOpen(false);
+  };
+  const setPopIsOpenToTrue = () => {
+    setPopIsOpen(true);
+  };
+
+  const setPopIsOpenToFalse = () => {
+    setPopIsOpen(false);
   };
 
   return (
@@ -40,43 +50,53 @@ const ConsumablesCard = ({ project }) => {
         <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
           {title}
         </h1>
-        <div class="my-6 gap-4 justify-center flex">
-          <>
-            <button
-              class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg"
-              onClick={setModalIsOpenToTrue}
-            >
-              Details
-            </button>
-
-            <Modal
-              isOpen={modalIsOpen}
-              className="container mx-auto mt-44 justify-items-center py-10 bg-zinc-300"
-              onRequestClose={() => setModalIsOpen(false)}
-            >
+        <div class="my-6 gap-2 justify-center flex">
+          <div>
+            <>
               <button
-                className="top-6 left-5 text-red-800"
-                onClick={setModalIsOpenToFalse}
+                class="mt-4 text-xl w-full text-white bg-pink-500 px-5 py-2 rounded-xl shadow-lg"
+                onClick={setModalIsOpenToTrue}
               >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-10 w-10 top-20 right-0"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
+                Details
               </button>
-              <PopUp desc={desc} />
-            </Modal>
-          </>
-          <button class="mt-4 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
-            Enquiry
-          </button>
+
+              <Modal
+                isOpen={modalIsOpen}
+                className="  container  md:px-64 md:mx-auto  mt-44 justify-items-center py-10 "
+                onRequestClose={() => setModalIsOpen(false)}
+              >
+                <button onClick={setModalIsOpenToFalse}>
+                  <div className="flex justify-end text-5xl text-red-700">
+                    <ion-icon name="close-circle"></ion-icon>
+                  </div>
+                  <PopUp desc={desc} />
+                </button>
+              </Modal>
+            </>
+          </div>
+          <div>
+            <>
+              <button
+                class="mt-4 text-xl w-full text-white bg-pink-500  px-5 py-2 rounded-xl shadow-lg"
+                onClick={setPopIsOpenToTrue}
+              >
+                Enquiry
+              </button>
+
+              <Modal
+                isOpen={popIsOpen}
+                className="  container  md:px-64 md:mx-auto  mt-14 md:mt-44 justify-items-center py-10 "
+                onRequestClose={() => setPopIsOpen(false)}
+              >
+                <button onClick={setPopIsOpenToFalse}>
+                  <div className="flex justify-end text-5xl text-red-700">
+                    <ion-icon name="close-circle"></ion-icon>
+                  </div>
+                 <Form/>
+                </button>
+              </Modal>
+            </>
+          </div>
         </div>
       </div>
     </div>

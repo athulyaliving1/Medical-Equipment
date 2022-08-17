@@ -1,26 +1,26 @@
-const projects = [
+const Bedprojects = [
   {
-    title: "Hapus",
+    title: "Basic Medical Cot",
     desc: "hapus  Lorem Ipsum is simply dummy , ",
-    image: "Hapus_pic",
-    Product:""
+    image: "Basic_Medical_Cot",
+    Product: "",
   },
   {
-    title: "UpHealthy Extra Large",
+    title: "Deluxe Cot Without Wheels",
     desc: "upHelthy   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
-    image: "Up_Healthy_Extra_Large",
+    image: "Deluxe_Cot_Without_Wheels",
   },
   {
-    title: "Underpads",
+    title: "Deluxe Semi Fowlers Cot",
     desc: "underpads  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
-    image: "Under_pads",
+    image: "Deluxe_Semi_Fowlers_Cot",
   },
   {
-    title: "Products Pioneer",
+    title: "Head And Foot Adjustable Cot",
     desc: "pioneer  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
-    image: "Poroducts_Pioneer",
+    image: "Head_And_Foot_Adjustable_Cot",
   },
 ];
 
-export { projects };
-export default projects;
+export { Bedprojects };
+export default Bedprojects;

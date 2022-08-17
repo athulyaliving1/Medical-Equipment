@@ -1,7 +1,7 @@
-import { projects } from "../Data/index";
-import ConsumablesCard from "./ConsumablesCard";
+import { Bedprojects} from "../Data/CotData";
+import HospistalCotsCard from "./HospitalCotsCard";
 
-function Projects() {
+function ProjectCot() {
   return (
     <div id="project" className=" scroll-mt-20 px-5 xl:px-0 bg-sky-100">
       <div className="container mx-auto pt-10 py-10 ">
@@ -11,8 +11,8 @@ function Projects() {
       </div>
       <div className="container mx-auto  ">
         <div className="md:px-4 md:grid md:grid-cols-2 lg:grid-cols-4 gap-5 space-y-4 md:space-y-0">
-          {projects.map((project, index) => (
-            <ConsumablesCard
+          {Bedprojects.map((project, index) => (
+            <HospistalCotsCard
               key={index}
               project={project}
               ltr={index % 2 === 1}
@@ -24,4 +24,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectCot;
