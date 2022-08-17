@@ -32,7 +32,6 @@ function HospistalCots() {
                 </div>
                 <h1 class="mt-5 text-gray-800 opacity-90  md:text-xl font-semibold cursor-pointer text-center">
                   Basic Medical Cot
-                  
                 </h1>
                 <div class="my-6">
                   <button class="mt-10 text-xl w-full text-white bg-pink-500 py-2 rounded-xl shadow-lg">
